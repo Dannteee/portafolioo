@@ -1,0 +1,243 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+@font-face {
+     font-family: 'ohayu';
+     src: url('../assets/fonts/Ohayou\ Christmas.ttf') format('truetype');
+}
+      
+@font-face {
+    font-family: 'walk';
+     src: url('../assets/fonts/Walkway\ Black.ttf') format('truetype');
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding:0;
+    overflow:scroll;
+}
+
+.container-fluid{
+    padding: 10px 30px;
+  
+ }
+
+.inicio{
+    font-family: ohayu;
+    font-size: 2rem;
+    color: white;
+
+}
+
+.inicio:hover{
+    background-color: white;
+    color: #201E41;
+    transition: background-color .5s;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.quienSoy{
+    color: white;
+    font-family: walk;
+    font-size: 20px;
+}
+.quienSoy:hover{
+    background-color: white;
+    color: #201E41;
+    transition: background-color .5s;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.proyectos{
+    color: white;
+    font-family: walk;
+    font-size: 20px;
+}
+.proyectos:hover{
+    background-color: white;
+    color: #201E41;
+    transition: background-color .5s;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.contacto{
+    font-family: walk;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.contacto:hover{
+    background-color: white;
+    color: #201E41;
+    transition: background-color .5s;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.letras{
+    font-family: walk;
+}
+
+.qn{
+    font-family: ohayu;
+    font-size: 5rem;
+    padding: 40px;
+    text-shadow: gray 0px 10px 7px;
+ }
+
+ .p1{
+    font-family: walk;
+    font-size: 1.5rem; 
+    padding: 40px;
+}
+
+.boton1{
+    display: flex;
+    justify-content: center;
+}
+
+.sec2{
+    background-color: #d9e6f1;
+    height:100%;
+}
+
+.p2{
+    font-family:ohayu;
+    font-size: 2.5rem; 
+    padding: 40px;
+    color:#585759;
+    text-shadow: gray 0px 5px 3px;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+.texto1{
+    font-family: ohayu;
+    display: flex;
+    justify-content: center;
+}
+
+.numero,
+.numero2,
+.numero3,
+.numero4,
+.numero5,
+.numero6,
+.numero7,
+.numero8{
+    font-family: ohayu;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    color:#5080B7;
+}
+
+
+.numeroo9,
+.numeroo11,
+.numeroo12,
+.numeroo13,
+.numeroo14,
+.numeroo15,
+.numeroo16,
+.numeroo17,
+.numeroo18,
+.numeroo19,
+.numeroo21{
+    font-family: ohayu;
+    display: flex;
+    justify-content: center;
+}
+.boton2{
+    display: flex;
+    justify-content: center;
+}
+
+.sec3{
+    background-color: white;
+    height: 100%;
+}
+
+.educacion{
+    font-family: ohayu;
+    font-size: 4rem;
+    color: #246EAB;
+    padding: 70px 210px 8px;
+}
+
+.p3{
+    font-family: walk;
+    font-size: 1.5rem;
+    padding: 70px 210px 8px;
+}
+
+.experiencia{
+    font-family: ohayu;
+    font-size: 4rem;
+    color: #AA92C0;
+    padding: 70px 210px 8px;
+}
+
+
+.sec4{
+    background-color: #201E41;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.p4{
+    color: white;
+    font-family: ohayu;
+    display: flex;
+    justify-content: center;
+    padding: 70px 5px 10px;
+}
+
+.texto2{
+    font-family: walk;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.boton3{
+    display: flex;
+    justify-content: center;
+}
+
+
+#btn{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-family: walk;
+    font-size: 2rem;
+    transform: translate(100px);
+}
+
+.footer{
+    background-color: #201E41;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.derechos{
+    font-family: walk;
+    background-color: #201E41;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+

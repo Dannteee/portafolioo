@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+@font-face {
+     font-family: 'Ohayu';
+     src: url('../assets/fonts/Ohayou\ Christmas.ttf') format('truetype');
+}
+      
+@font-face {
+    font-family: 'walk';
+     src: url('../assets/fonts/Walkway\ Black.ttf') format('truetype');
+}
+
+body{
+    background: linear-gradient(#201E41,#3C3C77);
+    min-height: 100vh;
+    overflow: scroll;
+}
+.container-fluid{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 30px 100px;
+   z-index: 1000;
+    
+}
+.inicio{
+    color:white,;
+    font-family: ohayu;
+    font-size: 2rem;
+}
+.inicio:hover{
+    background-color: white;
+    color: #201E41;
+    transition: background-color .5s;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.quienSoy{
+    color: white;
+    font-family: walk;
+    font-size: 20px;
+}
+
+.quienSoy:hover{
+    background-color: white;
+    color: #201E41;
+    transition: background-color .5s;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.proyectos{
+    color: white;
+    font-family: walk;
+    font-size: 20px;
+}
+
+.proyectos:hover{
+    background-color: white;
+    color: #201E41;
+    transition: background-color .5s;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.letras{
+    font-family: walk;
+}
+
+.contacto{
+    font-family: walk;
+    font-size: 20px;
+    color: white;
+}
+.contacto:hover{
+    background-color: white;
+    color: #201E41;
+    transition: background-color .5s;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.proyectos:hover{
+    background-color: white;
+    color: #201E41;
+    transition: background-color .5s;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.imagenes{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imagenes::before{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to top,#1d5c8f,#246EAB);
+    z-index: 100000;
+}
+
+#imagen img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+
+}
+
+#imagen img#luna{
+    mix-blend-mode: screen;
+}
+
+#btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px ;
+    background-color:#80A9D6;
+    z-index:10;
+    color: black;
+    font-family: ohayu;
+    font-size: 2rem;
+    transform: translate(100px);
+}
+
+@media screen and (min-width: 400px)and( max-width:576px){
+    .imagenes{
+        height: 70vh;}
+    .mediaq{
+        width: 100%;
+        height: 70vh;
+    }
+    }
+    
+
+.sec1{
+    padding: 100px;
+    background-color: #1d5c8f;
+}
+
+.bienvenidos{
+    color: white;
+    font-family: ohayu;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.p1{
+    color: white;
+    font-family: walk;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+video{
+    padding: 20px 200px 20px;
+}
+
+.boton1{
+    display: flex;
+    justify-content: center;
+}
+
+.sec2{
+    background-color: white;
+}
+.ser{
+    font-family: ohayu;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/*Tooltip*/
+
+.servicios{
+    background-color: rgb(255, 255, 255);
+}
+
+.popover-trigger{
+    background: transparent;
+    border: 1px transparent;
+    padding: 10px;
+}
+.popover-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+.popover-content {
+    display: none;
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    transform: translateX(-10%);
+    z-index: 6;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: #152239;
+    color: #ffffff;
+    border-radius: 30px;
+    font-family: ohayu;
+    font-variation-settings: 'wght' 500;
+}
+
+.popover-trigger:hover + .popover-content {
+    display: block;
+  }
+  
+.servicios{
+    padding: 80px;
+    z-index: 5;
+}
+.text-servicios{
+    font-size: 1.8rem;
+    color: #88AFB9;
+    font-family: rubik;
+    font-variation-settings: 'wght' 500;
+}
+
+@media only screen and (max-width: 480px) {
+    .popover-content {
+      width: 80%;
+    }
+}
+
+
+.sec3{
+    background-color: #201E41;
+    height: 100%;
+}
+
+.carousel1{
+    padding: 70px;
+}
+
+.boton2{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: walk;
+    font-size: 2rem;
+    background-color: #1d5c8f;
+    border-radius: 50px;
+    border: 10px white;
+}
+
+.sec4{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: walk;
+    font-size: rem;}
+
+.footer{
+    background-color: #201E41;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.derechos{
+    font-family: walk;
+    background-color: #201E41;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}

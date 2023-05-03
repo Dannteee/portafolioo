@@ -1,0 +1,190 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+@font-face {
+     font-family: 'ohayu';
+     src: url('../assets/fonts/Ohayou\ Christmas.ttf') format('truetype');
+}
+      
+@font-face {
+    font-family: 'walk';
+     src: url('../assets/fonts/Walkway\ Black.ttf') format('truetype');
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding:0;
+    overflow:scroll;
+}
+
+.container-fluid{
+    padding: 10px 30px;
+  
+ }
+
+.inicio{
+    font-family: ohayu;
+    font-size: 2rem;
+    color: white;
+
+}
+
+.inicio:hover{
+    background-color: white;
+    color: #201E41;
+    transition: background-color .5s;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.quienSoy{
+    color: white;
+    font-family: walk;
+    font-size: 20px;
+}
+.quienSoy:hover{
+    background-color: white;
+    color: #201E41;
+    transition: background-color .5s;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.proyectos{
+    color: white;
+    font-family: walk;
+    font-size: 20px;
+}
+.proyectos:hover{
+    background-color: white;
+    color: #201E41;
+    transition: background-color .5s;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.contacto{
+    font-family: walk;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.contacto:hover{
+    background-color: white;
+    color: #201E41;
+    transition: background-color .5s;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.letras{
+    font-family: walk;
+}
+
+.sec1{
+    display: flex;
+    justify-content: center;
+    font-family: ohayu;
+}
+
+.sec2{
+    font-family: ohayu;
+    background-color: #B5CFE8;
+    height: 100%
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    font-family: walk;
+    color: #246EAB;
+}
+
+.proyecto1,
+.proyecto2,
+.proyecto3,
+.proyecto4,
+.proyecto5,
+.proyecto6,
+.proyecto8,
+.proyecto9,
+.proyecto10,
+.proyecto11,
+.proyecto12,
+.proyecto13,
+.proyecto14{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.sec3{
+    font-family: ohayu;
+    background-color: #A4C6DD;
+    height: 100%;
+ 
+}
+
+.audio{
+    display: flex;
+    justify-content: center;
+    font-family: walk;
+    padding: 20px;
+    color: #215F88;
+}
+
+.proyecto7,
+.proyecto8,
+.proyecto9{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.sec4{
+    font-family: ohayu;
+    padding: 20px;
+    background-color: #809DAD;
+    height: 100%;
+ 
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    font-family: walk;
+    padding: 20px;
+    color: #133142;
+}
+
+
+.sec5{
+    font-family: ohayu;
+    padding: 20px;
+    background-color: #7E8487;
+    height: 100%;
+ 
+}
+
+.web{
+    display: flex;
+    justify-content: center;
+    font-family: walk;
+    padding: 20px;
+    color: #133142;
+}
+
+
+
+audio{
+    width: 250px;
+    border-radius: 100px;
+    transform: scale(1.05);
+}

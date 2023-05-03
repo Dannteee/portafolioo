@@ -1,0 +1,192 @@
+*{box-sizing: border-box;}
+
+body{
+    background-color: white;
+}
+
+@font-face {
+    font-family: 'col';
+    src: url('../assets/fonts/Canelia.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ohayu';
+    src: url('../assets/fonts/Ohayou\ Christmas.ttf') format('truetype');
+}
+     
+@font-face {
+   font-family: 'walk';
+    src: url('../assets/fonts/Walkway\ Black.ttf') format('truetype');
+}
+
+body{
+   background-color: rgb(255, 255, 255);
+   margin: 0;
+   padding:0;
+   overflow:scroll;
+   background-color: #201E41;
+   height: 100%;
+}
+
+.container-fluid{
+   padding: 10px 30px;
+ 
+}
+
+.inicio{
+   font-family: ohayu;
+   font-size: 2rem;
+   color: white;
+
+}
+
+.inicio:hover{
+   background-color: white;
+   color: #201E41;
+   transition: background-color .5s;
+   border-radius: 20px;
+   padding: 10px 10px;
+}
+
+.quienSoy{
+   color: white;
+   font-family: walk;
+   font-size: 20px;
+}
+.quienSoy:hover{
+   background-color: white;
+   color: #201E41;
+   transition: background-color .5s;
+   border-radius: 20px;
+   padding: 10px 10px;
+}
+
+.proyectos{
+   color: white;
+   font-family: walk;
+   font-size: 20px;
+}
+.proyectos:hover{
+   background-color: white;
+   color: #201E41;
+   transition: background-color .5s;
+   border-radius: 20px;
+   padding: 10px 10px;
+}
+
+.contacto{
+   font-family: walk;
+   font-size: 20px;
+   color: white;
+   text-decoration: none;
+}
+
+.contacto:hover{
+   background-color: white;
+   color: #201E41;
+   transition: background-color .5s;
+   border-radius: 20px;
+   padding: 10px 10px;
+}
+.letras{
+   font-family: walk;
+}
+
+.imagenes{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+#imagen img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -10;
+
+}
+
+#imagen img#moon2{
+    mix-blend-mode: screen;
+}
+
+.formulario{
+    padding: 200px;
+}
+
+@media screen and (min-width: 400px)and( max-width:576px){
+    .imagenes{
+        height: 70vh;}
+    .mediaq{
+        width: 100%;
+        height: 70vh;
+    }
+    .formulario{
+        width: 100%;
+        height: 70vh;
+    }}
+
+.texto3{
+    color: white;
+    font-family: walk;
+    font-size: 1.5rem;
+}
+
+.sec1{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.p5{
+    font-family: walk;
+    font-size: 2rem;
+    padding: 100px;
+    z-index: -1;
+}
+ 
+.sec2{
+    background-color: #cadaea;
+    height: 100%;
+}
+
+.sec3{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.p6{
+    font-family: col;
+    font-size: 3.2rem;
+    padding: 100px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.footer{
+    background-color: #201E41;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.derechos{
+    font-family: walk;
+    background-color: #201E41;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
